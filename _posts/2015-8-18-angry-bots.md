@@ -1,7 +1,11 @@
 ---
-title: Angry Bots demo with CGK
+title: Angry Bots with CGK
 ---
 
 #Angry Bots demo with CGK
 _still under construction_
-{{ site.url }}
+
+{{ site.baseurl }}
+
+
+{% include footer.html %}
