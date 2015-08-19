@@ -19,7 +19,7 @@
       
         <center>
           <h2>Custom Gravitation Kit<br/><small>Unity asset for taking Gravity under control</small></h2>
-          <img src="img/unity-logo.png"/>
+          <img src="assets/unity-logo.png"/>
           <h1>Demo projects</h1>
         </center>
         
@@ -39,6 +39,12 @@
         </p>
 
         <hr/>
+        
+        <p>
+          {% for post in site.posts %}
+          <a href="{{ post.url }}">{{ post.title }}</a></br>
+          {% endfor %}
+        </p>
         
         <!--<ul>
           <li><a href="https://github.com/paveltimofeev/Unity-CustomGarvitationKit-Demos/zipball/master">Download <strong>ZIP File</strong></a></li>
