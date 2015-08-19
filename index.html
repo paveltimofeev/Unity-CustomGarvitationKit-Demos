@@ -46,7 +46,7 @@
         <p><strong>Demo projects</strong></p>
         <p>
           {% for post in site.posts %}
-          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></br>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></br>
           {% endfor %}
         </p>
         
