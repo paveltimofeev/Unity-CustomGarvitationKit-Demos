@@ -1,10 +1,7 @@
 ---
-title: CGK Demo 1
+title: Angry Bots demo with CGK
 ---
 
-#Demo 1
-Just an exaple
-
-layout: post
-
-z{{ site.url }}Z
+#Angry Bots demo with CGK
+_still under construction_
+{{ site.url }}
