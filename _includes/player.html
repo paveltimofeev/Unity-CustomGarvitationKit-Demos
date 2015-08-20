@@ -1,0 +1,28 @@
+<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/player.css"/>
+<script type='text/javascript' src='{{ site.baseurl }}/javascripts/download-player.js'></script>
+<script type='text/javascript' src='{{ site.baseurl }}/javascripts/player.js'></script>
+<script type="text/javascript">
+<!--
+  init( "{{ site.baseurl }}{{page.demourl}}", {
+    width: 1080, 
+    height: 600,
+    params: { enableDebugging:"0" }				
+  } );
+-->
+</script>
+<div class="content">
+  <div id="unityPlayer">
+    <div class="missing">
+      <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+        <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+      </a>
+    </div>
+    <div class="broken">
+      <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+        <img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
+      </a>
+    </div>
+  </div>
+</div>
+<p class="footer">&laquo; created with <a href="http://u3d.as/7FJ" title="Go to Unity asset store">Custom Gravitations Kit</a> &raquo;</p>
