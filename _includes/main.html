@@ -2,70 +2,15 @@
   <h2><a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome</h2>
   <p>We're coming soon...</p>
   
-  
+  {% for article in site.main_page_articles %}
   <h3><a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
-  <span class="octicon octicon-link"></span></a>
-  Demonstration Game</h3>
-  <p>
-  While we are launching you can try a <a href="http://patico.pro/PlanetGravity/Demo">Demo Game</a></br> 
-  Or enjoy a recorded gameplay bellow. 
-  <!--<br><br>
-  What are there:
-  <ul>
-  <li>Gravity</li>
-    <li>Character</li>
-      <li>Camera</li>
-        <li>Interactions</li>
-          <li>Models</li>
-  </ul>-->
-  </p>
-  <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Nzk29E-tCao?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
-    </iframe>
-  </p>
-  <p>Thank you for your attention,</br>Paul Patico</p>
-  <hr/>
+  <span class="octicon octicon-link"></span></a>{{ article.title }}</h3>
   
-  
-  
-  <h3><a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
-  <span class="octicon octicon-link"></span></a>
-  Travel across planets</h3>
-  <p>
-  Here is another one way to use CGK. This pretty simple scene demontrate a case when player getting in the spaceship 
-  and fly to another one tiny planet.<br>
-  It this demo rocket uses AlignerComponent (from Custom Gravitations Kit) for controlling rotation and align themself along gravity vector.
-  </p>
-  <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zlaUxw4IKuI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
-    </iframe>
-  </p>
+  {{ article.content }}
   
   <p>Paul Patico</p>
   <hr>
-  
-  
-  
-  <h3><a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
-  <span class="octicon octicon-link"></span></a>
-  Old demo video</h3>
-  <p>
-  Just for the history. The most earliest video of CGK, released at May of 2014.
-  </p>
-  <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/NuHIm6Oni48?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
-    </iframe>
-  </p>
-  
-  <p>Paul Patico</p>
-  <hr>
-  
-  <!--
-  {% for post in site.posts %}
-  <h3><a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
-  <span class="octicon octicon-link"></span></a>{{ post.title }}</h3>
-  <hr/>
   {% endfor %}
-  -->
+
   
 </section>
