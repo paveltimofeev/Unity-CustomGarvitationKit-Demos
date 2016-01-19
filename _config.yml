@@ -3,5 +3,7 @@ highlighter: pygments
 baseurl: /Unity-CustomGravitationsKit-Demos
 exclude: [ "*.cmd", "build.cmd", "publish.cmd", "run.cmd"]
 collections:
-  main_page_articles:
+- main_page_articles:
+    visible: yes
+- sidebar:
     visible: yes

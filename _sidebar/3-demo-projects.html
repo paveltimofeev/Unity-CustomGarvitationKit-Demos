@@ -1,0 +1,11 @@
+---
+title: Demo projects
+visible: 'yes'
+---
+
+<p><strong>Demo projects</strong></p>
+<p>
+  {% for post in site.posts %}
+  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></br>
+  {% endfor %}
+</p>

@@ -28,30 +28,12 @@
         
         <hr/>
         
-        <p>Hola amigos, soon you'll find here some demonstration projects for custom garvitation kit asset with description and source code</p>
+        {% for sect in site.sidebar %}
         
-        <hr/>
-        
-        <p><strong>Some useful links</strong></p>
-        
-        <p class="view">
-          <a href="http://patico.pro/PlanetGravity/Land">- Custom Garvitation Kit website</a></br>
-          <a href="http://u3d.as/7FJ">- Asset on Unity Asset Store</a></br>
-          <a href="http://forum.unity3d.com/threads/246841-Custom-Gravitations-Kit-RELEASED">- Support thread at Unity Forums</a></br>
-          <a href="http://www.youtube.com/watch?v=Nzk29E-tCao">- Demo video</a></br>
-        </p>
+          {{ sect.content }}
+          <hr/>
+        {% endfor %}
 
-        <hr/>
-        
-        <p><strong>Demo projects</strong></p>
-        <p>
-          {% for post in site.posts %}
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></br>
-          {% endfor %}
-        </p>
-        
-        <hr/>
-        
       </header>
         
         {% include main.html %}
