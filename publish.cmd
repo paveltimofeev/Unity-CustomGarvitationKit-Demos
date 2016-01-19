@@ -11,9 +11,11 @@ echo Commit will commented with:
 echo "publish update at %today%: %comment%"
 echo.
 pause
+
 git add .
 git status
 git commit -m "publish update at %today%: %comment%"
 pause
+
 git push
 pause

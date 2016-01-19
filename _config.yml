@@ -1,6 +1,7 @@
 encoding: utf-8
 highlighter: pygments
 baseurl: /Unity-CustomGravitationsKit-Demos
+exclude: [ "*.cmd", "build.cmd", "publish.cmd", "run.cmd"]
 collections:
   main_page_articles:
     visible: yes
