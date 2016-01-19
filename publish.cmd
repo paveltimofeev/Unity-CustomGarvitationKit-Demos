@@ -5,6 +5,11 @@ set today=%MyDate:~0,4%-%MyDate:~4,2%-%MyDate:~6,2%
 echo "publish update at %today%"
 
 git status
+set /p comment=Add comment to commit:
+echo.
+echo Commit will commented with: 
+echo "publish update at %today%: %comment%"
+echo.
 pause
 git add .
 git status
