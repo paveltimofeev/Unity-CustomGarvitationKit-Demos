@@ -1,5 +1,6 @@
 ---
 title: Demonstration Game
+visible: 'yes'
 ---
 
 While we are launching you can try a <a href="http://patico.pro/PlanetGravity/Demo">Demo Game</a>. Or enjoy a recorded gameplay bellow. 

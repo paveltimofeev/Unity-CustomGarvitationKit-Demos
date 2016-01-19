@@ -1,5 +1,6 @@
 ---
 title: Travel across planets
+visible: 'yes'
 ---
 
 Here is another one way to use CGK. This pretty simple scene demontrate a case when player getting in the spaceship 

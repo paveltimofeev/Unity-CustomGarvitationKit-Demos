@@ -2,4 +2,5 @@ encoding: utf-8
 highlighter: pygments
 baseurl: /Unity-CustomGravitationsKit-Demos
 collections:
-- main_page_articles
+  main_page_articles:
+    visible: yes

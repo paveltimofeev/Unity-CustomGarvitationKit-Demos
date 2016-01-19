@@ -3,13 +3,15 @@
   <p>We're coming soon...</p>
   
   {% for article in site.main_page_articles %}
-  <h3><a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
-  <span class="octicon octicon-link"></span></a>{{ article.title }}</h3>
-  
-  {{ article.content }}
-  
-  <p>Paul Patico</p>
-  <hr>
+    {% if article.visible == 'yes' %}
+    
+    <h3><a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
+    <span class="octicon octicon-link"></span></a>{{ article.title }}</h3>
+    {{ article.content }}
+    <p>Paul Patico</p>
+    <hr>
+    
+    {% endif %}
   {% endfor %}
 
   

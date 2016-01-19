@@ -1,5 +1,6 @@
 ---
 title: Old demo video
+visible: 'yes'
 ---
 
 Just for the history. The most earliest video of CGK, released at May of 2014.
