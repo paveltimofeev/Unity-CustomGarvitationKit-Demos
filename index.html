@@ -28,7 +28,8 @@
         
         <hr/>
         
-        {% for sect in site.sidebar %}
+        <!-- max 3 sections -->
+        {% for sect in site.sidebar limit:3 %}
         
           {{ sect.content }}
           <hr/>
