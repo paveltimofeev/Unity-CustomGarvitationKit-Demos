@@ -1,4 +1,5 @@
 ---
+layout: demogame
 title: Walk On Planets
 demourl: /assets/blobs/demo-planet-gravity.unity3d
 ---

@@ -1,4 +1,5 @@
 ---
+layout: demogame
 title: Travel inside of Spherical World
 demourl: /assets/blobs/demo-inside-of-sphere.unity3d
 ---
