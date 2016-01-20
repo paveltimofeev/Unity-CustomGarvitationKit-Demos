@@ -17,5 +17,5 @@ git status
 git commit -m "publish update at %today%: %comment%"
 pause
 
-git push
+git push origin gh-pages
 pause
