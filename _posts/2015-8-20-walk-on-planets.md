@@ -9,6 +9,3 @@ _still under construction_
 
 
 {% include player.html %}
-
-
-{% include footer.html %}

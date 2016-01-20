@@ -10,6 +10,7 @@ echo.
 echo Commit will commented with: 
 echo "publish update at %today%: %comment%"
 echo.
+echo %today% >> /_includes/updated.md
 pause
 
 git add --all
