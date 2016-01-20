@@ -12,3 +12,5 @@ collections:
     visible: 'yes'
   sidebar:
     visible: 'yes'
+  docs:
+    asset_version: '1.0'
