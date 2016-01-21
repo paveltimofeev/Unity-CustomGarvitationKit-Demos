@@ -10,5 +10,5 @@
   - [Wiki](http://microformats.org/wiki/Main_Page)
   - [h-product](http://microformats.org/wiki/h-product)
   - [h-review](http://microformats.org/wiki/h-review)
-  - [h-entry (blog post)](http://microformats.org/wiki/h-entry)
+  - [h-entry (blog post)](http://microformats.org/wiki/h-entry) + [h-feed](http://microformats.org/wiki/h-feed)
 
