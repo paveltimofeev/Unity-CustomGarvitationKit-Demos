@@ -13,3 +13,4 @@
   - [h-review](http://microformats.org/wiki/h-review)
   - [h-entry (blog post)](http://microformats.org/wiki/h-entry) + [h-feed](http://microformats.org/wiki/h-feed)
 
+- [Page speed tools](https://developers.google.com/speed/pagespeed/)
