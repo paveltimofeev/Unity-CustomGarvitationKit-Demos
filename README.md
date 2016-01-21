@@ -7,6 +7,7 @@
 - [Jekyll services](http://jekyll.tips/services/)
 - [Pip Docs](https://pip.pypa.io/en/latest/) created with [Read The Docs](https://readthedocs.org/) 
 - [MicroFormat](https://en.wikipedia.org/wiki/Microformat)
+  - [Google Structured data docs](https://developers.google.com/structured-data/)
   - [Wiki](http://microformats.org/wiki/Main_Page)
   - [h-product](http://microformats.org/wiki/h-product)
   - [h-review](http://microformats.org/wiki/h-review)
