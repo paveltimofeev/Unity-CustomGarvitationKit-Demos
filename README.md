@@ -7,3 +7,6 @@
 - [Jekyll services](http://jekyll.tips/services/)
 - [Pip Docs](https://pip.pypa.io/en/latest/) created with [Read The Docs](https://readthedocs.org/) 
 - [MicroFormat](https://en.wikipedia.org/wiki/Microformat)
+  - [h-product](http://microformats.org/wiki/h-product)
+  - [h-review](http://microformats.org/wiki/h-review)
+  - [wiki](http://microformats.org/wiki/Main_Page)
