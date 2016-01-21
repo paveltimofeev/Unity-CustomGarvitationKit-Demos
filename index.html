@@ -29,10 +29,12 @@
         <hr/>
         
         <!-- max 3 sections -->
-        {% for sect in site.sidebar limit:3 %}
+        {% for sect in site.sidebar limit:4 %}
         
           {{ sect.content }}
-          <hr/>
+          {% if sect.hide_splitline != 'yes' %}
+            <hr/>
+          {% endif %}
         {% endfor %}
 
       </header>
