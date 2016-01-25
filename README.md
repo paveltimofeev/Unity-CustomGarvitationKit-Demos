@@ -16,3 +16,5 @@
 - [Page speed tools](https://developers.google.com/speed/pagespeed/)
   - [Insights](https://developers.google.com/speed/pagespeed/insights/)
   - [Rules](https://developers.google.com/speed/docs/insights/rules)
+
+- [Screen to gif](https://screentogif.codeplex.com/)
