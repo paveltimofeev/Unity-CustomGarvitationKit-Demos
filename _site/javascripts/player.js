@@ -1,4 +1,4 @@
-function init( demourl, config )
+function init( demourl, config, next )
 { 
     var u = new UnityObject2( config );
 
@@ -48,4 +48,21 @@ function init( demourl, config )
       
       u.initPlugin( jQuery( "#unityPlayer" )[0], demourl );
     });
+       
+    if( next )
+      next( u );
 }
+
+/*
+init( "{{ site.baseurl }}{{page.demourl}}", 
+      {
+        width: 1080, 
+        height: 600,
+        params: { enableDebugging:"0" }				
+      },
+      function( u )
+      {
+        u.getUnity().SendMessage( "UrlObject", "SetUrlFunction", "Custom Gravitations Kit;http://u3d.as/7FJ" );
+      }
+ );
+*/

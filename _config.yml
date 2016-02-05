@@ -12,3 +12,6 @@ collections:
     visible: 'yes'
   sidebar:
     visible: 'yes'
+    hide_splitline: 'no'
+  docs:
+    asset_version: '1.0'
