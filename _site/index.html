@@ -172,7 +172,37 @@ It this demo rocket uses AlignerComponent (from Custom Gravitations Kit) for con
 <script src="https://platform.vine.co/static/scripts/embed.js"></script>
 
 <p><br />
-<img src="Assets/img/one_kilo_plane.png" alt="" /></p>
+<img src="assets/img/one_kilo_plane.png" alt="" /></p>
+
+    
+    <p>Paul Patico</p>
+    <hr>
+    
+    
+  
+    
+    
+    <h3><a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
+    <span class="octicon octicon-link"></span></a>CGK 1.12 is going out!</h3>
+    
+    <p><img src="assets/new-release-badge.png" alt="custom gruvitational kit - 1.12 released" /><br />
+It’s so beautiful day today, and I just sent new version of Custom Gravitational Kit to Asset Store reveiw. 
+Really hope, in the next 5-10 business days it will be available for everybody.
+But anyway, I think now I can share what it will include.</p>
+
+<h4 id="new-features">New Features</h4>
+<ul>
+  <li>Added BaseCharacterController class - that can be used for implementing any own “gravity-affected” character controllers.</li>
+  <li>Control of fluctuation power from inspector’s UI - any gravitational field can have small torque forces impacting on the objects, and now these forces could be tuned.</li>
+  <li>ForceMode for gravitational fields. There was added 4 standart modes of gravity Force: Force, VelocityChange, Acceleration and Impulse. So, it can be confifured from UI now.</li>
+</ul>
+
+<h4 id="some-fixes">Some fixes</h4>
+<ul>
+  <li>CentricGravity with BoxCollider was breaking SceneView, now it’s fixed.</li>
+  <li>Fixed non-working invert mouse option of First Person Camera view.</li>
+  <li>Clean up and refactoring</li>
+</ul>
 
     
     <p>Paul Patico</p>
@@ -197,18 +227,33 @@ Latest build of asset was succesfully tested on:
 <hr/>
 </section>
 
-        <section>
-<h2><a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
-<span class="octicon octicon-link"></span></a>Have a questions? Let me know</h2>
-<p>
-You can send me an email:
-<form action="//formspree_io/your@email.com" method="POST">
-    <table>
-      <tr><td>Contact email (for reply):</td><td><input type="email" name="_replyto"></td></tr>
-      <tr><td>Message:</td><td><input type="textarea" name="name"></td></tr>
-      <tr><td></td><td><input type="submit" value="Send"></td></tr>
-    </table>
-</form>
+        <!-- https://animefigures.disqus.com/admin/settings/universalcode/ -->
+<section>
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+this.page.url = "http://paveltimofeev.github.io/Unity-CustomGravitationsKit-Demos/"; //"/index.html"; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "http://paveltimofeev.github.io/Unity-CustomGravitationsKit-Demos/";//""; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//animefigures.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<!-- Place the following code before your site's closing </body> tag: -->
+<script id="dsq-count-scr" src="//animefigures.disqus.com/count.js" async></script>
 </section>
 
         
@@ -218,7 +263,7 @@ You can send me an email:
   Have questions? 
   email to <a href="mailti:info@patico.pro">info[at]patico.pro</a><br/>
   © patico.pro, 2015 <a href="http://patico.pro">http://patico.pro</a><br/>
-  Updated 2016-01-21 
+  Updated 2016-02-16 
 
 </small>
 </p>
